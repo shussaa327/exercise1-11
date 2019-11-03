@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+a{
+	text-decoration:none;
+}
+
 .clearfix::after{
 	content: "";
 	display: block;
@@ -14,6 +18,34 @@ header{
 	height: 70px;
 	width: 100%;
 	background-color: #ec715f;
+}
+
+.head-line{
+	height: 70px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header-logo{
+	width: auto;
+	height: 70px;
+	float: left;
+}
+
+.nav-list{
+	float:right;
+}
+
+.nav-list a{
+	color:#fafafa;
+}
+
+.nav-list-item{
+	font-size: 16px;
+	list-style: none;
+	display: inline-block;
+	padding: 0 30px;
+	line-height: 70px;
 }
 
 .main-visual{
@@ -28,22 +60,22 @@ main{
 	width: 100%;
 }
 
-.portfolio{
+#portfolio{
 	height: 1000px;
 	background-color: #eceff1;
 }
 
-.feature{
+#feature{
 	height: 1000px;
 	background-color: red;
 }
 
-.profile{
+#profile{
 	height: 1000px;
 	background-color: #eceff1;
 }
 
-.contact{
+#contact{
 	height: 1000px;
 	background-color: blue;
 }
