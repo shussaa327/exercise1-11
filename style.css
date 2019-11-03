@@ -9,3 +9,47 @@
 	display: block;
 	clear: both;
 }
+
+header{
+	height: 70px;
+	width: 100%;
+	background-color: #ec715f;
+}
+
+.main-visual{
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+main{
+	width: 100%;
+}
+
+.portfolio{
+	height: 1000px;
+	background-color: #eceff1;
+}
+
+.feature{
+	height: 1000px;
+	background-color: red;
+}
+
+.profile{
+	height: 1000px;
+	background-color: #eceff1;
+}
+
+.contact{
+	height: 1000px;
+	background-color: blue;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #ec715f;
+}
