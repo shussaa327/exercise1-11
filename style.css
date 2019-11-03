@@ -56,6 +56,22 @@ header{
 	background-position: center;
 }
 
+.main-visual-content{
+	padding-top: 200px;
+	text-align: center;
+}
+
+.main-visual h1{
+	font-size: 64px;
+	color: #fafafa;
+	padding-bottom: 10px;
+}
+
+.main-visual-text{
+	font-size: 20px;
+	color: #fafafa;
+}
+
 main{
 	width: 100%;
 }
