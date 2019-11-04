@@ -63,7 +63,7 @@ header{
 	line-height: 70px;
 }
 
-.main-visual{
+#main-visual{
 	height: 650px;
 	width: 100%;
 	background-image: url(img/mv.png);
@@ -76,7 +76,7 @@ header{
 	text-align: center;
 }
 
-.main-visual h1{
+#main-visual h1{
 	font-size: 64px;
 	color: #fafafa;
 	padding-bottom: 10px;
@@ -234,9 +234,52 @@ main{
 .myprofile-myskills h4{
 	padding-bottom: 5px;
 }
-#contact{
-	height: 1000px;
-	background-color: blue;
+.contact-content{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 90px 0;
+}
+
+.contact-information{
+	width: 800px;
+}
+
+.contact-information h4{
+	padding-bottom: 5px;
+}
+
+.contact-information-personal{
+	width: 400px;
+	float:left;
+	text-align: center;
+}
+
+.personal-content{
+	text-align: left;
+	display: inline-block;
+}
+
+.contact-mail{
+	margin-bottom:20px;
+}
+
+.contact-information-sns{
+	width: 400px;
+	float: left;
+}
+
+.contact-icon-sns h4{
+	text-align: left;
+	margin-left: 95px;
+}
+
+.contact-icon{
+	font-size: 50px;
+}
+
+.contact-icon i:nth-child(2){
+	padding: 0 20px;
 }
 
 footer{
