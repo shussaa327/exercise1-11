@@ -142,11 +142,45 @@ main{
 	background-image: url(img/webcamp-mother.png);
 	margin: 0;
 }
-#feature{
-	height: 1000px;
-	background-color: red;
+
+.feature-content{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 90px 0;
 }
 
+.strength{
+	width: 980px;
+}
+
+.strength-content{
+	width: 320px;
+	margin-right: 10px;
+	float: left;
+}
+
+.strength-content:last-child{
+	margin-right: 0;
+}
+
+.strength-icon{
+	font-size: 60px;
+	text-align: center;
+}
+
+.strength-content h4{
+	text-align: center;
+	padding: 10px 0;
+	font-size: 20px;
+	color: #000000;
+}
+
+.strength-content p{
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+}
 #profile{
 	height: 1000px;
 	background-color: #eceff1;
