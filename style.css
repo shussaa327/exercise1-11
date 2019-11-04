@@ -13,6 +13,16 @@ h3{
 	color: #000000;
 }
 
+h4{
+	font-size: 20px;
+	color: #000000;
+}
+
+p{
+	font-size: 16px;
+	color: #000000;
+}
+
 .clearfix::after{
 	content: "";
 	display: block;
@@ -172,20 +182,58 @@ main{
 .strength-content h4{
 	text-align: center;
 	padding: 10px 0;
-	font-size: 20px;
-	color: #000000;
 }
 
 .strength-content p{
 	text-align: left;
-	font-size: 16px;
-	color: #000000;
 }
 #profile{
-	height: 1000px;
 	background-color: #eceff1;
 }
 
+.profile-content{
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 90px 0;
+}
+
+.myprofile-content{
+	width: 1024px;
+}
+
+.myprofile-image-section{
+	width: 512px;
+	float: left;
+}
+
+.myprofile-image{
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin:0 auto;
+}
+
+.myprofile-section{
+	width: 512px;
+	float: left;
+	text-align: left;
+}
+
+.myprofile-name{
+	padding-bottom: 20px;
+}
+
+.myprofile-name h4{
+	padding-bottom: 5px;
+}
+
+.myprofile-myskills h4{
+	padding-bottom: 5px;
+}
 #contact{
 	height: 1000px;
 	background-color: blue;
