@@ -409,17 +409,32 @@ footer{
 		padding-bottom: 0;
 	}
 
-	.strength-icon{
-		font-size: 60px;
-		text-align: center;
+	.profile-content{
+		width: 90%;
 	}
 
-	.strength-content h4{
-		text-align: center;
-		padding: 10px 0;
+	.myprofile-content{
+		width: 90%;
+		margin: 0 auto;
 	}
 
-	.strength-content p{
-		text-align: left;
+	.myprofile-image-section{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.myprofile-section{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.myprofile-name h4{
+		padding-top: 20px;
+	}
+
+	.myprofile-myskills h4{
+		padding-top: 20px;
 	}
 }
