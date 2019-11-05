@@ -337,4 +337,16 @@ footer{
 	.nav-list-item{
 		display: none;
 	}
+
+	#main-visual{
+		background-image: url(img/code.png);
+	}
+
+	#main-visual h1{
+	font-size: 40px;
+	}
+
+	.main-visual-text{
+	font-size: 18px;
+	}
 }
