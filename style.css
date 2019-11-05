@@ -437,4 +437,51 @@ footer{
 	.myprofile-myskills h4{
 		padding-top: 20px;
 	}
+
+	.contact-content{
+		width: 90%;
+	}
+
+	.contact-information{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.contact-information h4{
+		padding-bottom: 5px;
+	}
+
+	.contact-information-personal{
+		width: 90%;
+		float:none;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.personal-content{
+		text-align: center;
+	}
+
+	.contact-mail{
+		margin-bottom:20px;
+	}
+
+	.contact-tell{
+		margin-bottom: 20px;
+	}
+
+	.contact-information-sns{
+		width: 90%;
+		float: none;
+		margin:0 auto;
+	}
+
+	.contact-icon-sns h4{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.top-page-icon{
+		width: 20%;
+	}
 }
