@@ -5,12 +5,13 @@
 	<meta name="viewport" content="width=device-width">
 	<title>HTML・CSS11章</title>
 	<script src="https://kit.fontawesome.com/c6b150abdd.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel ="stylesheet" href="css/skippr.css">
 </head>
 <body>
 	<header>
 		<div id="head-line" class="clearfix">
-			<a href="#main-visual"><img src="img/logo.png" class="header-logo"></a>
+			<a href="#main-content"><img src="img/logo.png" class="header-logo"></a>
 			<nav class="nav-list">
 				<ul>
 					<li class="nav-list-item"><a href="#portfolio" title="">Portfolio</a></li>
@@ -37,11 +38,24 @@
   			</div><!--　ハンバーガーメニュー実装↑　-->
 		</div>
 	</header>
-	<section id="main-visual">
-		<div class="main-visual-content">
-			<h1>Lorem Ipsum</h1>
-			<p class="main-visual-text">simply dummy text of the printing</p>
+	<section id="main-content">
+		<div class="main-visual" style="background-image: url(img/mv.png)">
+			<div class="main-visual-content">
+				<h1>Lorem Ipsum</h1>
+				<p class="main-visual-text">simply dummy text of the printing</p>
+			</div>
 		</div>
+		<div class="main-visual" style= "background-image: url(img/test3.jpg)">
+			<div class="main-visual-content">
+				<h1>Academy</h1>
+				<p class="main-visual-text">simply dummy text of the printing</p>
+			</div>
+		</div>
+		<div class="main-visual" style= "background-image: url(img/test4.jpg)">
+			<div class="main-visual-content">
+				<h1>DMMWEBCAMP</h1>
+				<p class="main-visual-text">Studying Programming</p>
+			</div>
 	</section>
 	<main>
 		<section id="portfolio">
@@ -151,5 +165,8 @@
 	<footer>
 		<p class="footer-text">©2019 WebCamp</p>
 	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/skippr.min.js"></script>
 </body>
 </html>

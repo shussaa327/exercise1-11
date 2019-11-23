@@ -68,10 +68,12 @@ header{
 	display: none;
 }
 
-#main-visual{
+#main-content{
 	height: 650px;
 	width: 100%;
-	background-image: url(img/mv.png);
+}
+
+.main-visual{
 	background-size: cover;
 	background-position: center;
 }
@@ -81,7 +83,7 @@ header{
 	text-align: center;
 }
 
-#main-visual h1{
+#main-content h1{
 	font-size: 64px;
 	color: #fafafa;
 	padding-bottom: 10px;
@@ -129,32 +131,32 @@ main{
 }
 
 .portfolio-image1{
-	background-image: url(img/sketch.jpg);
+	background-image: url(../img/sketch.jpg);
 	margin: 0 10px 10px 0;
 }
 
 .portfolio-image2{
-	background-image: url(img/websuku.png);
+	background-image: url(../img/websuku.png);
 	margin: 0 10px 10px 0;
 }
 
 .portfolio-image3{
-	background-image: url(img/write.jpg);
+	background-image: url(../img/write.jpg);
 	margin: 0 0 10px 0;
 }
 
 .portfolio-image4{
-	background-image: url(img/webcamp.png);
+	background-image: url(../img/webcamp.png);
 	margin: 0 10px 0 0;
 }
 
 .portfolio-image5{
-	background-image: url(img/talk.jpg);
+	background-image: url(../img/talk.jpg);
 	margin: 0 10px 0 0;
 }
 
 .portfolio-image6{
-	background-image: url(img/webcamp-mother.png);
+	background-image: url(../img/webcamp-mother.png);
 	margin: 0;
 }
 
@@ -215,7 +217,7 @@ main{
 .myprofile-image{
 	width: 250px;
 	height: 250px;
-	background-image: url(img/my-icon.jpg);
+	background-image: url(../img/my-icon.jpg);
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
@@ -437,7 +439,7 @@ footer{
 	}
 
 	#main-visual{
-		background-image: url(img/code.png);
+		background-image: url(../img/code.png);
 	}
 
 	#main-visual h1{
@@ -458,31 +460,31 @@ footer{
 
 	.portfolio-image1{
 		display: none;
-		background-image: url(img/sketch.jpg);
+		background-image: url(../img/sketch.jpg);
 	}
 
 	.portfolio-image2{
-		background-image: url(img/websuku.png);
+		background-image: url(../img/websuku.png);
 		margin: 0 auto;
 	}
 
 	.portfolio-image3{
-		background-image: url(img/write.jpg);
+		background-image: url(../img/write.jpg);
 		display:none;
 	}
 
 	.portfolio-image4{
-		background-image: url(img/webcamp.png);
+		background-image: url(../img/webcamp.png);
 		margin: 10px auto;
 	}
 
 	.portfolio-image5{
-		background-image: url(img/talk.jpg);
+		background-image: url(../img/talk.jpg);
 		display: none;
 	}
 
 	.portfolio-image6{
-		background-image: url(img/webcamp-mother.png);
+		background-image: url(../img/webcamp-mother.png);
 		margin: 0 auto;
 	}
 
